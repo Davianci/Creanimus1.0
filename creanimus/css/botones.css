@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*menu*/
+/*botones*/
+.btn{
+	width: 10%;
+	position: absolute;
+	z-index: 2;
+	/*font-weight: bold;*/
+
+}
+/*botones pag1*/
+#btn1{
+ right: 3px;
+ bottom:30%;
+
+}
+
+#btn2{
+right: 10%;
+bottom: 6%;
+}
+
+#btn3{
+right: 25%;
+bottom:1%;
+}
+
+/*ajustes de texto para los botones*/
+.st1{
+left: 23%;
+font-size: 2vw;
+
+}
+.st2{
+	top: 15% !important;
+left: 10%;
+top:20px;
+font-size: 1.3vw;
+
+}
+.st3{
+	top: 1% !important;
+left: 20%;
+font-size: 1.8vw;
+
+}
+/*estilos para el texto y la imagen del boton*/
+	
+
+.imgbtn{
+	margin: 0;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	position: relative;
+}
+.textbtn{
+z-index: 4;
+font-family: keyes;
+text-align: center;
+position: absolute;
+
+}
+
+.btnvinc{
+display: block;/* hace que tome el alto de su contenedor*/
+height: 100%;	
+
+}
+
+@media screen and (max-width: 919px) and (min-width: 480px){
+
+
+.btn{
+width: 13%;
+
+}
+.st1{
+
+font-size: 3vw;
+
+}
+.st2{
+
+font-size: 1.7vw;
+
+}
+.st3{
+
+font-size: 2.4vw;
+
+}
+
+}	
+@media screen and (max-width: 479px) and (orientation:portrait) {
+	
+.btn{
+width: 20%;
+
+}
+#btn1{
+ right: 3px;
+ bottom:18%;
+
+}
+
+#btn2{
+right: 4%;
+bottom: 3%;
+}
+
+#btn3{
+right: 27%;
+bottom:1%;
+}
+
+.st1{
+
+font-size: 5vw;
+
+}
+.st2{
+
+font-size: 3vw;
+
+}
+.st3{
+
+font-size: 4vw;
+
+}
+
+}
